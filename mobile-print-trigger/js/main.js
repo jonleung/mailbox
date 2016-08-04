@@ -8,7 +8,7 @@ $(function() {
   $submit.on("click", function(e) {
     var data = {
       theirName: $theirName.val(),
-      friendName: $theirName.val()
+      friendName: $friendName.val()
     }
 
     dweetio.dweet_for(DWEET_CHANNEL, data, function(err, dweet){
