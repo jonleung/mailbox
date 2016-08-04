@@ -1,3 +1,5 @@
+console.log("To disable the print dialogue, add '#print=no' to the URL");
+
 $(function() {
   var DWEET_CHANNEL = "mailbox-instimacy";
 
@@ -13,7 +15,6 @@ $(function() {
     $theirName.html(params.theirName);
     $friendName.html(params.friendName);
 
-    // http://localhost:3000/#print=no
     if(window.location.hash.indexOf("no") > -1 && window.location.hash.indexOf("print") > -1) {
       console.log('suppressed print')
     }
