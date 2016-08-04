@@ -7,21 +7,32 @@
   </head>
   <body>
     <!-- <div class="page"> -->
-      <p>
-        Dear Sharon,
-      </p>
-      <p>
-        I wanted to tell you how grateful I am for you. All those moments we've had together, I'll always cherish those.
-      </p>
-      <p>
-        I have realized that I have not been been as vocal as I've liked in telling the people that I appreciate how much I appreciate itthem. That's why you got this lovely letter from me!
-      </p>
-      <p>
-        Looking forward to some more crazy awesome times with you!
-      </p>
-      <p>
-        Jonathan
-      </p>
+      <div class="letter">
+        <p class="date">
+          <span id="date">DATE</span>
+        </p>
+        <p>
+          Dear <span id="their-name">{THEIR NAME}</span>,
+        </p>
+        <p>
+          I wanted to tell you how grateful I am for you. All those moments we've had together, I'll always cherish those.
+        </p>
+        <p>
+          I have realized that I have not been been as vocal as I've liked in telling the people that I appreciate how much I appreciate itthem. That's why you got this lovely letter from me!
+        </p>
+        <p>
+          Looking forward to some more crazy awesome times with you!
+        </p>
+        <p>
+          <span id="friend-name">{FRIEND NAME}</span>
+        </p>
+      </div>
+
+      <script src="js/lib/jquery-2.1.3.min.js"></script>
+      <script src="js/lib/underscore-min.js"></script>
+      <script src="//dweet.io/client/dweet.io.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+      <script src="js/main.js"></script>
     <!-- </div> -->
   </body>
 </html>
